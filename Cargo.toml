@@ -1,0 +1,13 @@
+[package]
+name = "simple_gui"
+version = "0.1.0"
+authors = ["Gianfranco Dutka <gdutk007@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+calculate = { git = "https://gitlab.redox-os.org/redox-os/calc.git" }
+lazy_static = "1.4.0"
+rand = "0.7.3"
+orbtk = "0.3.1-alpha1"
